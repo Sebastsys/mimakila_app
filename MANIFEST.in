@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mimakila_app *.css
+recursive-include mimakila_app *.csv
+recursive-include mimakila_app *.html
+recursive-include mimakila_app *.ico
+recursive-include mimakila_app *.js
+recursive-include mimakila_app *.json
+recursive-include mimakila_app *.md
+recursive-include mimakila_app *.png
+recursive-include mimakila_app *.py
+recursive-include mimakila_app *.svg
+recursive-include mimakila_app *.txt
+recursive-exclude mimakila_app *.pyc
